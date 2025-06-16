@@ -82,28 +82,21 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </React.StrictMode>,
 )
 🚀 Step 6: Start the Dev Server
-Now run your project:
+Now run the project:
 
-bash
 
 npm run dev
 Open your browser at http://localhost:5173
 
-✅ You're Ready!
-Now you can use Tailwind utility classes in your JSX:
 
-jsx
-Copy
-Edit
+
 <div className="bg-yellow-300 p-6 rounded-xl shadow-xl">
   <h1 className="text-4xl font-bold text-gray-800">
     Tailwind is Working!
   </h1>
 </div>
 📁 Final Project Structure
-pgsql
-Copy
-Edit
+
 vedester-portfolio/
 ├── node_modules/
 ├── public/
@@ -115,4 +108,3 @@ vedester-portfolio/
 ├── vite.config.js    <-- Tailwind + React plugins here
 ├── 
 └── package.json
-Let me know if you want this saved as a downloadable README.md file!
