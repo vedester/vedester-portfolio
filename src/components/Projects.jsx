@@ -5,6 +5,33 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   const projectList = [
     {
+    id: "st-josephine-bakhita",
+    title: "St. Josephine Bakhita Girls' Secondary School",
+    description: "Official web platform and dynamic administrative portal designed for school management, student information, and institution updates.",
+    tech: ["React", "Tailwind CSS", "Node.js", "Express", "MySQL"],
+    repo: "https://github.com/vedester/bakhita",
+    live: "https://www.stjosephinebakhitanyalienga.sc.ke/",
+    featured: true
+  },
+  {
+    id: "ko-physiotherapy",
+    title: "KO Physiotherapy Clinic",
+    description: "Modern healthcare web application offering patient session scheduling, service catalog, and clinic information with multi-language support.",
+    tech: ["React", "Tailwind CSS", "Node.js", "Express"],
+    repo: "https://github.com/vedester/medical-website",
+    live: "https://medical-website-murex.vercel.app/en",
+    featured: true
+  },
+  {
+    id: "st-pauls-ligisa",
+    title: "St. Paul's Secondary School - Ligisa",
+    description: "Comprehensive secondary school website featuring institutional announcements, academic portal access, and school administration features.",
+    tech: ["React", "Tailwind CSS", "Node.js", "MySQL"],
+    repo: "https://github.com/vedester/school-website",
+    live: "https://ligisa.sc.ke/",
+    featured: true
+  },
+    {
       title: "Custom Shower Glass Quote Calculator",
       description:
         "A dynamic React-based app that generates instant quotes based on dimensions, glass type, and add-ons. Includes cart, image preview, and WhatsApp/email quote sharing.",
